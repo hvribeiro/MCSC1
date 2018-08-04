@@ -16,15 +16,24 @@
 ## Dicas e indicações
 
 - [Think Python 2nd Edition by Allen B. Downey](http://greenteapress.com/thinkpython2/thinkpython2.pdf) 
-- SciPy 2018 Tutorial sobre numpy (https://www.youtube.com/watch?v=V0D2mhVt7NE)
+- [SciPy 2018 Tutorial sobre numpy](https://www.youtube.com/watch?v=V0D2mhVt7NE)
+- [SciPy 2018 Tutorial sobre pandas](https://www.youtube.com/watch?v=lkLl_QKLgcA)
+- [SciPy 2018 Tutorial sobre matplotlib](https://www.youtube.com/watch?v=6gdNUDs6QPc)
+- [SciPy 2016 Tutorial sobre sympy](https://www.youtube.com/watch?v=AqnpuGbM6-Q)
 - [Lista de commandos do git](https://github.com/hvribeiro/MCSC1/blob/master/extras/zt_git_cheat_sheet.pdf)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Repositório do Unpingco com códigos e praticamente o livro todo em jupyter notebooks](https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning)
 
-Primeiros passos no git:
+Primeiros passos com o git:
+
+Para instalar
+```sh
+sudo apt-get install git-core
+```
+Para dizer quem você é
 ```sh
 git config --global user.name "Seu Nome"
-git config --global user.email seuemail@algumacoisa
+git config --global user.email seu_email@alguma_coisa.com
 ```
 Se quiser deixar a senha salva para todos repositórios
 ```sh
@@ -36,3 +45,20 @@ Para clonar esse repositório use
 ```sh
 git clone https://github.com/hvribeiro/MCSC1.git 
 ```
+
+Primeiros passos com a Anaconda:
+
+- Faça o download da versão 3.x em: (https://www.anaconda.com/download/)
+-- [link direto para o .sh](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh)
+- Siga as intruções em https://docs.anaconda.com/anaconda/install/linux
+-- basicamente é executar
+```sh
+sh Anaconda3-5.2.0-Linux-x86_64.sh
+```
+e seguir os passos do instalador.
+
+Passos para instalar pacotes
+```sh
+pip install Nome_do_Pacote
+```
+
