@@ -48,16 +48,20 @@ git clone https://github.com/hvribeiro/MCSC1.git
 
 Primeiros passos com a Anaconda:
 
-- Faça o download da versão 3.x em: (https://www.anaconda.com/download/)
--- [link direto para o .sh](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh)
-- Siga as intruções em https://docs.anaconda.com/anaconda/install/linux
--- basicamente é executar
+- Faça o download da versão 3.x em https://www.anaconda.com/download/ ou use o [link direto para o .sh](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh)
+- Siga as instruções em https://docs.anaconda.com/anaconda/install/linux
+Basicamente é executar
 ```sh
 sh Anaconda3-5.2.0-Linux-x86_64.sh
 ```
 e seguir os passos do instalador.
 
-Passos para instalar pacotes
+Para atualizar todos os pacotes
+```sh
+conda update --all
+```
+
+Para instalar um pacote
 ```sh
 pip install Nome_do_Pacote
 ```
