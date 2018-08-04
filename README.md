@@ -24,7 +24,7 @@
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Repositório do Unpingco com códigos e praticamente o livro todo em jupyter notebooks](https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning)
 
-#### Primeiros passos com o git:
+#### Primeiros passos com o git
 
 Para instalar
 ```sh
@@ -46,7 +46,7 @@ Para clonar esse repositório use
 git clone https://github.com/hvribeiro/MCSC1.git 
 ```
 
-#### Primeiros passos com a Anaconda:
+#### Primeiros passos com a Anaconda
 
 - Faça o download da versão 3.x em https://www.anaconda.com/download/ ou use o [link direto](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh) para o .sh
 - Siga as instruções em https://docs.anaconda.com/anaconda/install/linux
