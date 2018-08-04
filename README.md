@@ -8,7 +8,18 @@
 [![Alt Text](https://images.springer.com/sgw/books/medium/9783319307152.jpg)]()
 
 
-## Esse repositório contém os notebooks das apresentações
+## Conteúdo do repositório
+- */aulas* - .ipynb com as apresentações
+- */refs* - referências que usamos
+- */extras* - 
+
+## Dicas e indicações
+
+- Livro para uma introdução ao python: 
+[![Alt Text](http://greenteapress.com/thinkpython2/think_python2_medium.jpg)]()
+- SciPy 2018 Tutorial sobre numpy (https://www.youtube.com/watch?v=V0D2mhVt7NE)
+- lista de commandos do git ()
+
 
 Para clonar esse repositório use:
 ```sh
