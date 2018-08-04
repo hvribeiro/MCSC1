@@ -6,33 +6,34 @@
 - *Forma de avaliação:* a definir
 - Livro texto: José Unpingco, *Python for Probability, Statistics, and Machine Learning*, Springer (2016).
 [![Alt Text](https://images.springer.com/sgw/books/medium/9783319307152.jpg)]()
+[libgen](http://library1.org/_ads/E844412DCACEB5A9BF29267FA244E908)
 
 
 ## Conteúdo do repositório
 - */aulas* - .ipynb com as apresentações
 - */refs* - referências que usamos
-- */extras* - 
+- */extras*
 
 ## Dicas e indicações
 
-- Livro para uma introdução ao python: 
-[![Alt Text](http://greenteapress.com/thinkpython2/think_python2_medium.jpg)]()
+- [Think Python 2nd Edition by Allen B. Downey](http://greenteapress.com/thinkpython2/thinkpython2.pdf) 
 - SciPy 2018 Tutorial sobre numpy (https://www.youtube.com/watch?v=V0D2mhVt7NE)
 - [Lista de commandos do git](https://github.com/hvribeiro/MCSC1/blob/master/extras/zt_git_cheat_sheet.pdf)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Repositório do Unpingco com códigos e praticamente o livro todo em jupyter notebooks](https://github.com/unpingco/Python-for-Probability-Statistics-and-Machine-Learning)
 
 Primeiros passos no git:
 ```sh
 git config --global user.name "Seu Nome"
 git config --global user.email seuemail@algumacoisa
 ```
-Se quiser deixar salva a senha para todos repositórios
+Se quiser deixar a senha salva para todos repositórios
 ```sh
 git config --global credential.helper store
 ```
 Sua senha fica gravada no arquivo de texto plano *.git-credentials* no seu %HOME%.
 
-Para clonar esse repositório use:
+Para clonar esse repositório use
 ```sh
 git clone https://github.com/hvribeiro/MCSC1.git 
 ```
