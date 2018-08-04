@@ -18,8 +18,19 @@
 - Livro para uma introdução ao python: 
 [![Alt Text](http://greenteapress.com/thinkpython2/think_python2_medium.jpg)]()
 - SciPy 2018 Tutorial sobre numpy (https://www.youtube.com/watch?v=V0D2mhVt7NE)
-- lista de commandos do git ()
+- [Lista de commandos do git](https://github.com/hvribeiro/MCSC1/blob/master/extras/zt_git_cheat_sheet.pdf)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+Primeiros passos no git:
+```sh
+git config --global user.name "Seu Nome"
+git config --global user.email seuemail@algumacoisa
+```
+Se quiser deixar salva a senha para todos repositórios
+```sh
+git config --global credential.helper store
+```
+Sua senha fica gravada no arquivo de texto plano *.git-credentials* no seu %HOME%.
 
 Para clonar esse repositório use:
 ```sh
