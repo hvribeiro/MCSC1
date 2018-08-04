@@ -5,8 +5,7 @@
 - *Horário:* às quartas-feiras de 13:30 a 17:00
 - *Forma de avaliação:* a definir
 - Livro texto: José Unpingco, *Python for Probability, Statistics, and Machine Learning*, Springer (2016).
-[![Alt Text](https://images.springer.com/sgw/books/medium/9783319307152.jpg)]()
-[libgen](http://library1.org/_ads/E844412DCACEB5A9BF29267FA244E908)
+[![Alt Text](https://images.springer.com/sgw/books/medium/9783319307152.jpg)](http://library1.org/_ads/E844412DCACEB5A9BF29267FA244E908)
 
 
 ## Conteúdo do repositório
