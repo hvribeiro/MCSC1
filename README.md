@@ -9,13 +9,13 @@
 
 
 ## Conteúdo do repositório
-- */aulas* - .ipynb com as apresentações
-- */refs* - referências que usamos
+- */aulas* - .ipynb com as apresentações e outras coisas
 - */extras*
 
 ## Dicas e indicações
 
 - [Think Python 2nd Edition by Allen B. Downey](http://greenteapress.com/thinkpython2/thinkpython2.pdf) 
+- [A hands-on introduction to Python for beginning programmers](https://www.youtube.com/watch?v=rkx5_MRAV3A)
 - [SciPy 2018 Tutorial sobre numpy](https://www.youtube.com/watch?v=V0D2mhVt7NE)
 - [SciPy 2018 Tutorial sobre pandas](https://www.youtube.com/watch?v=lkLl_QKLgcA)
 - [SciPy 2018 Tutorial sobre matplotlib](https://www.youtube.com/watch?v=6gdNUDs6QPc)
@@ -45,6 +45,17 @@ Para clonar esse repositório use
 ```sh
 git clone https://github.com/hvribeiro/MCSC1.git 
 ```
+
+Para abrir o jupyter lab
+```sh
+jupyter lab
+```
+
+Para abrir um notebook em mode de apresentação
+```sh
+jupyter nbconvert "Nome_do_arquivo.ipynb" --to slides --post serve --SlidesExporter.reveal_transition=none
+```
+A opção *SlidesExporter.reveal_transition* muda o tipo de transição entre os slides e pode ser *none, fade, slide, convex, concave* ou *zoom*.
 
 #### Primeiros passos com a Anaconda
 
