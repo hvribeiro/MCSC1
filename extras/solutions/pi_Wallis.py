@@ -1,0 +1,11 @@
+pi = 3.14159265358979312
+
+my_pi = 1.
+
+for i in range(1, 100000):
+    my_pi *= 4 * i ** 2 / (4 * i ** 2 - 1.)
+
+my_pi *= 2
+
+print(f'My pi is {my_pi}')
+print(f'The relative error is {(pi-my_pi)/pi}')
